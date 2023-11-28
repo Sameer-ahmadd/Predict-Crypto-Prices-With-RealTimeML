@@ -1,1 +1,1 @@
-## Train and Deploy a Serverless API to predict crypto prices
+# Train and Deploy a Serverless API to predict crypto prices
