@@ -13,8 +13,3 @@ def get_console_logger(name: Optional[str] = 'logs') -> logging.Logger:
         console_handler.setFormatter(formatter)
         logger.addHandler(console_handler)
     return logger
-
-
-logger = get_console_logger()
-logger.info('this is a info message')
-logger.debug('this is a debug message')
